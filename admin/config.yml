@@ -5,7 +5,6 @@ backend:
 
 public_folder: "/assets"
 media_folder: "content/assets"
-publish_mode: editorial_workflow
 
 collections:
   - name: "post"
@@ -21,3 +20,5 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Layout", name: "layout", widget: "string", default: "Post"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
