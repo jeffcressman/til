@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: til
   repo: jeffcressman/til
   branch: master
 
